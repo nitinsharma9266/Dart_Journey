@@ -197,25 +197,20 @@ int square(int number) {
 ---
 
 # 🔄 Function Call Flow
-
 ```mermaid
 flowchart TD
-    A([Program Start])
-    B[main()]
-    C[Take Input]
-    D[Call Function]
-    E[Process Data]
-    F[Return Value]
-    G[Display Output]
-    H([Program End])
+    A[main()]
+    B[Input]
+    C[Function Call]
+    D[Processing]
+    E[Return Result]
+    F[Output]
 
     A --> B
     B --> C
     C --> D
     D --> E
     E --> F
-    F --> G
-    G --> H
 ```
 ---
 
