@@ -197,14 +197,15 @@ int square(int number) {
 ---
 
 # 🔄 Function Call Flow
+
 ```mermaid
 flowchart TD
-    A[main()]
-    B[Input]
-    C[Function Call]
-    D[Processing]
-    E[Return Result]
-    F[Output]
+    A["main()"]
+    B["Input"]
+    C["Function Call"]
+    D["Processing"]
+    E["Return Result"]
+    F["Output"]
 
     A --> B
     B --> C
