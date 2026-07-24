@@ -200,20 +200,23 @@ int square(int number) {
 
 ```mermaid
 flowchart TD
+    A([Program Start])
+    B[main()]
+    C[Take Input]
+    D[Call Function]
+    E[Process Data]
+    F[Return Value]
+    G[Display Output]
+    H([Program End])
 
-A[main()]
-
-A --> B[Input]
-
-B --> C[Function Call]
-
-C --> D[Processing]
-
-D --> E[Return Result]
-
-E --> F[Output]
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 ```
-
 ---
 
 # 🌍 Real World Uses of Functions
