@@ -539,28 +539,18 @@ names.add(null);
 ---
 
 # Mermaid Mind Map
-
 ```mermaid
 mindmap
-root((List))
-
-Definition
-
-Features
-
-Syntax
-
-Generic
-
-Dynamic
-
-Nullable
-
-Growable
-
-Fixed
-
-Constructors
+  root((List))
+    Definition
+    Features
+    Syntax
+    Generic
+    Dynamic
+    Nullable
+    Growable
+    Fixed
+    Constructors
 ```
 
 ---
@@ -1208,26 +1198,17 @@ F-->G[Display]
 
 ```mermaid
 mindmap
-
-root((List))
-
-Properties
-
-Methods
-
-Constructors
-
-Loops
-
-Advanced
-
-Search
-
-Remove
-
-Add
-
-Examples
+  root((List))
+    Properties
+    Methods
+      Add
+      Remove
+      Search
+      Access
+      Advanced
+    Constructors
+    Loops
+    Examples
 ```
 
 ---
