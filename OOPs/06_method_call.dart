@@ -16,3 +16,4 @@ void main(){
     s1.branch="CSE";
     s1.study();
 }
+
