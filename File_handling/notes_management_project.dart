@@ -42,7 +42,7 @@ Future<void> updateNote() async {
         return;
     }
 
-    stdout.write("Enter New Note: ");
+    stdout.write("Enter New Note Name : ");
     String newNote = stdin.readLineSync()!;
 
     if (newNote.trim().isEmpty) {
